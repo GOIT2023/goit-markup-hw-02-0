@@ -4,23 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- header_section -->
-    <header>
+    <header class="header">
       <nav>
-        <a href="./index.html">WebStudio</a>
+        <a href="./index.html" class="studio"><span class="web">Web</span>Studio</a>
 
         <ul>
-          <li><a href="#">Studio</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contacts</a></li>
+          <li><a href="#" class="navigation">Studio</a></li>
+          <li><a href="#" class="navigation">Portfolio</a></li>
+          <li><a href="#" class="navigation">Contacts</a></li>
         </ul>
       </nav>
       <address>
         <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+          <li><a href="mailto:info@devstudio.com" class="address">info@devstudio.com</a></li>
+          <li><a href="tel:+110001111111" class="address">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
     </header>
@@ -28,39 +29,44 @@
     <!-- main_section -->
     <main>
       <!-- section_1 -->
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-
-        <button type="button">Order Service</button>
+      <section class="section_one">
+        <h1 class="introduction_hero">Effective Solutions for Your Business</h1>
+        <ul>
+          <li>
+            <button type="button" class="button_hero">
+              <span class="button_text">Order Service</span>
+            </button>
+          </li>
+        </ul>
       </section>
       <!-- section_2 -->
-      <section>
+      <section class="section_two">
         <h2 hidden>What we do best</h2>
         <ul>
           <li>
-            <h3>Strategy</h3>
-            <p>
+            <h3 class="section_two_name">Strategy</h3>
+            <p class="section_two_paragraph">
               Our goal is to identify the business problem to walk away with the perfect and
               creative solution.
             </p>
           </li>
           <li>
-            <h3>Punctuality</h3>
-            <p>
+            <h3 class="section_two_name">Punctuality</h3>
+            <p class="section_two_paragraph">
               Bring the key message to the brand's audience for the best price within the shortest
               possible time.
             </p>
           </li>
           <li>
-            <h3>Diligence</h3>
-            <p>
+            <h3 class="section_two_name">Diligence</h3>
+            <p class="section_two_paragraph">
               Research and confirm brands that present the strongest digital growth opportunities
               and minimize risk.
             </p>
           </li>
           <li>
-            <h3>Technologies</h3>
-            <p>
+            <h3 class="section_two_name">Technologies</h3>
+            <p class="section_two_paragraph">
               Design practice focused on digital experiences. We bring forth a deep passion for
               problem-solving.
             </p>
@@ -69,8 +75,8 @@
       </section>
 
       <!-- section_3-->
-      <section>
-        <h2>What are we doing</h2>
+      <section class="section_three">
+        <h2 class="section_three_name">What are we doing</h2>
         <ul>
           <li>
             <img
@@ -100,57 +106,57 @@
       </section>
 
       <!-- section_4 -->
-      <section>
-        <h2>Our Team</h2>
-        <ul>
-          <li>
+      <section class="section_four">
+        <h2 class="section_four_name">Our Team</h2>
+        <ul class="team_card_list">
+          <li class="team_card_list_item">
             <img
               src="./images/images_card_one/img_Team_card_one.jpg"
               alt="man"
               width="264"
               height="260"
             />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <h3 class="team_name_card">Mark Guerrero</h3>
+            <p class="team_description_card">Product Designer</p>
           </li>
-          <li>
+          <li class="team_card_list_item">
             <img
               src="./images/images_card_one/img_Team_card_two.jpg"
               alt="man"
               width="264"
               height="260"
             />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <h3 class="team_name_card">Tom Ford</h3>
+            <p class="team_description_card">Frontend Developer</p>
           </li>
-          <li>
+          <li class="team_card_list_item">
             <img
               src="./images/images_card_one/img_Team_card_three.jpg"
               alt="woman"
               width="264"
               height="260"
             />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <h3 class="team_name_card">Camila Garcia</h3>
+            <p class="team_description_card">Marketing</p>
           </li>
-          <li>
+          <li class="team_card_list_item">
             <img
               src="./images/images_card_one/img_Team_card_four.jpg"
               alt="man"
               width="264"
               height="260"
             />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <h3 class="team_name_card">Daniel Wilson</h3>
+            <p class="team_description_card">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
 
     <!-- footer_sectoin -->
-    <footer>
-      <a href="./index.html">WebStudio</a>
-      <p>
+    <footer class="footer">
+      <a href="./index.html" class="studio"><span class="web">Web</span>Studio</a>
+      <p class="footer_paragraph">
         Increase the flow of customers and sales for your business with digital marketing & growth
         solutions.
       </p>
