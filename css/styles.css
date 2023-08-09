@@ -108,7 +108,7 @@ body {
 
 .section_three {
   background: #fff;
-  line-height: 1.11px;
+  line-height: 1.11;
 }
 
 .section_two_name {
@@ -150,7 +150,7 @@ body {
   width: 1440px;
   height: 732px;
   flex-shrink: 0;
-  background-color: #ffffff;
+  background-color: #f4f4fd;
 }
 
 .section_four_name {
@@ -160,7 +160,7 @@ body {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.11px; /* 111.111% */
+  line-height: 1.11; /* 111.111% */
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -242,7 +242,7 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 1.5px; /* 150% */
   letter-spacing: 0.64px;
 }
 
