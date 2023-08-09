@@ -1,12 +1,12 @@
 body {
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
 
 .web {
   color: #4d5ae5;
-  font-family: Raleway, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -17,7 +17,7 @@ body {
 
 .studio {
   color: #2e2f42;
-  font-family: Raleway;
+  font-family: 'Raleway';
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -28,7 +28,7 @@ body {
 
 .address {
   color: #434455;
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -45,7 +45,7 @@ body {
 }
 .navigation {
   color: #2e2f42;
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -57,7 +57,7 @@ body {
   width: 1440px;
   height: 72px;
   flex-shrink: 0;
-  border-bottom: 1px, #e7e9fc;
+  border-bottom: 1px #e7e9fc;
   background: #fff;
 }
 
@@ -71,7 +71,7 @@ body {
 .introduction_hero {
   color: #fff;
   text-align: center;
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
@@ -92,7 +92,7 @@ body {
 
 .button_hero_text {
   color: #fff;
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -113,7 +113,7 @@ body {
 
 .section_two_name {
   color: #2e2f42;
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -124,7 +124,7 @@ body {
 
 .section_two_paragraph {
   color: #434455;
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -136,7 +136,7 @@ body {
 .section_three_name {
   color: #2e2f42;
   text-align: center;
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -156,7 +156,7 @@ body {
 .section_four_name {
   color: #2e2f42;
   text-align: center;
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -168,7 +168,7 @@ body {
 .team_name_card {
   color: #2e2f42;
   text-align: center;
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -179,7 +179,7 @@ body {
 .team_description_card {
   color: #434455;
   text-align: center;
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -198,7 +198,7 @@ body {
   color: #f4f4fd;
 
   /* Body */
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -209,7 +209,7 @@ body {
 
 .studio_footer {
   color: #f4f4fd;
-  font-family: Raleway;
+  font-family: 'Raleway';
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -238,7 +238,7 @@ body {
 .btn_portfolio_text {
   color: #fff;
   text-align: center;
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -260,7 +260,7 @@ body {
 .button_portfolio_text {
   color: #4d5ae5;
   text-align: center;
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -270,7 +270,7 @@ body {
 
 .portfolio_title {
   color: #2e2f42;
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -280,7 +280,7 @@ body {
 
 .portfolio_text {
   color: #434455;
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
