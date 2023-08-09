@@ -1,22 +1,33 @@
+:root {
+  --iris: #4d5ae5;
+  --navyblue: #2e2f42;
+  --slate: #434455;
+  --cloud: #f4f4fd;
+  --white: #fff;
+  --ocean: #404bbf;
+  --cornflower: #e7e9fc;
+  --ultrawhite: #ffffff;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
-  color: #434455;
-  background-color: #ffffff;
+  color: var(--slate);
+  background-color: var(--ultrawhite);
 }
 
 .web {
-  color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-  font-style: normal;
   font-weight: 800;
-  line-height: 1.17px; /* 116.667% */
+  font-size: 18px;
+  line-height: 1.17px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  font-style: normal;
+  color: var(--iris);
 }
 
 .studio {
-  color: #2e2f42;
+  color: var(--navyblue);
   font-family: 'Raleway';
   font-size: 18px;
   font-style: normal;
@@ -27,7 +38,7 @@ body {
 }
 
 .address {
-  color: #434455;
+  color: var(--slate);
   font-family: 'Roboto';
   font-size: 16px;
   font-style: normal;
@@ -44,7 +55,7 @@ body {
   list-style: none;
 }
 .navigation {
-  color: #2e2f42;
+  color: var(--slate);
   font-family: 'Roboto';
   font-size: 16px;
   font-style: normal;
@@ -57,19 +68,19 @@ body {
   width: 1440px;
   height: 72px;
   flex-shrink: 0;
-  border-bottom: 1px #e7e9fc;
-  background: #fff;
+  border-bottom: 1px var(--cornflower);
+  background: var(--white);
 }
 
 .section_one {
   width: 1440px;
   height: 600px;
   flex-shrink: 0;
-  background: #2e2f42;
+  background: var(--navyblue);
 }
 
 .introduction_hero {
-  color: #fff;
+  color: var(--white);
   text-align: center;
   font-family: 'Roboto';
   font-size: 56px;
@@ -86,12 +97,12 @@ body {
   align-items: flex-start;
   gap: 10px;
   border-radius: 4px;
-  background: #4d5ae5;
+  background: var(--iris);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .button_hero_text {
-  color: #fff;
+  color: var(--white);
   font-family: 'Roboto';
   font-size: 16px;
   font-style: normal;
@@ -103,16 +114,16 @@ body {
 .section_two {
   width: 1440px;
   height: 2592px;
-  background: #fff;
+  background: var(--white);
 }
 
 .section_three {
-  background: #fff;
+  background: var(--white);
   line-height: 1.11;
 }
 
 .section_two_name {
-  color: #2e2f42;
+  color: var(--navyblue);
   font-family: 'Roboto';
   font-size: 20px;
   font-style: normal;
@@ -123,7 +134,7 @@ body {
 }
 
 .section_two_paragraph {
-  color: #434455;
+  color: var(--slate);
   font-family: 'Roboto';
   font-size: 16px;
   font-style: normal;
@@ -134,7 +145,7 @@ body {
 }
 
 .section_three_name {
-  color: #2e2f42;
+  color: var(--navyblue);
   text-align: center;
   font-family: 'Roboto';
   font-size: 36px;
@@ -146,15 +157,15 @@ body {
 }
 
 .section_four {
-  background: #f4f4fd;
+  background: var(--cloud);
   width: 1440px;
   height: 732px;
   flex-shrink: 0;
-  background-color: #f4f4fd;
+  background-color: var(--cloud);
 }
 
 .section_four_name {
-  color: #2e2f42;
+  color: var(--navyblue);
   text-align: center;
   font-family: 'Roboto';
   font-size: 36px;
@@ -166,7 +177,7 @@ body {
 }
 
 .team_name_card {
-  color: #2e2f42;
+  color: var(--navyblue);
   text-align: center;
   font-family: 'Roboto';
   font-size: 20px;
@@ -177,7 +188,7 @@ body {
 }
 
 .team_description_card {
-  color: #434455;
+  color: var(--slate);
   text-align: center;
   font-family: 'Roboto';
   font-size: 16px;
@@ -188,16 +199,14 @@ body {
 }
 
 .footer {
-  background: #2e2f42;
+  background: var(--navyblue);
   width: 1440px;
   height: 312px;
   flex-shrink: 0;
 }
 
 .footer_text {
-  color: #f4f4fd;
-
-  /* Body */
+  color: var(--cloud);
   font-family: 'Roboto';
   font-size: 16px;
   font-style: normal;
@@ -208,7 +217,7 @@ body {
 }
 
 .studio_footer {
-  color: #f4f4fd;
+  color: var(--cloud);
   font-family: 'Raleway';
   font-size: 18px;
   font-style: normal;
@@ -221,7 +230,7 @@ body {
 .section_portfolio {
   width: 1440px;
   height: 2076px;
-  background: #fff;
+  background: var(--white);
 }
 
 .btn_portfolio {
@@ -229,14 +238,14 @@ body {
   padding: 12px 24px;
   align-items: flex-start;
   border-radius: 4px;
-  background: #404bbf;
+  background: var(--ocean);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08),
     0px 3px 1px 0px rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
 
 .btn_portfolio_text {
-  color: #fff;
+  color: var(--white);
   text-align: center;
   font-family: 'Roboto';
   font-size: 16px;
@@ -252,13 +261,13 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 4px;
-  border: 1px #e7e9fc;
-  background: var(--cloud, #f4f4fd);
+  border: 1px var(--cornflower);
+  background: var(--cloud);
   cursor: pointer;
 }
 
 .button_portfolio_text {
-  color: #4d5ae5;
+  color: var(--iris);
   text-align: center;
   font-family: 'Roboto';
   font-size: 16px;
@@ -269,7 +278,7 @@ body {
 }
 
 .portfolio_title {
-  color: #2e2f42;
+  color: var(--navyblue);
   font-family: 'Roboto';
   font-size: 20px;
   font-style: normal;
@@ -279,7 +288,7 @@ body {
 }
 
 .portfolio_text {
-  color: #434455;
+  color: var(--slate);
   font-family: 'Roboto';
   font-size: 16px;
   font-style: normal;
