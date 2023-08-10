@@ -20,11 +20,16 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   font-style: normal;
   color: var(--iris);
   text-decoration: none;
+}
+
+.web :hover,
+.web :focus {
+  color: var(--ocean);
 }
 
 .studio {
@@ -44,8 +49,8 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.50; /* 150% */
-  letter-spacing: 0.32px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
 }
 
 .link {
@@ -61,7 +66,7 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.50; /* 150% */
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
 }
 
@@ -108,7 +113,7 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.50; /* 150% */
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.64px;
 }
 
@@ -129,7 +134,7 @@ body {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.20; /* 120% */
+  line-height: 1.2; /* 120% */
   letter-spacing: 0.4px;
   width: 264px;
 }
@@ -140,7 +145,7 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.50; /* 150% */
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
   width: 264px;
 }
@@ -184,7 +189,7 @@ body {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.20; /* 120% */
+  line-height: 1.2; /* 120% */
   letter-spacing: 0.4px;
 }
 
@@ -195,7 +200,7 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.50; /* 150% */
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
 }
 
@@ -212,7 +217,7 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.50; /* 150% */
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
   width: 264px;
 }
@@ -253,7 +258,7 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.50; /* 150% */
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.04em;
 }
 
@@ -275,7 +280,7 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.50; /* 150% */
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.64px;
 }
 
@@ -285,7 +290,7 @@ body {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.20; /* 120% */
+  line-height: 1.2; /* 120% */
   letter-spacing: 0.2em;
 }
 
@@ -295,6 +300,6 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.50; /* 150% */
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
 }
