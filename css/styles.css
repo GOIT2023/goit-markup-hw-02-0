@@ -19,7 +19,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17px;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
   font-style: normal;
@@ -33,7 +33,7 @@ body {
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 21px; /* 116.667% */
+  line-height: 1.17; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -44,7 +44,7 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 1.50; /* 150% */
   letter-spacing: 0.32px;
 }
 
@@ -61,7 +61,7 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 1.50; /* 150% */
   letter-spacing: 0.32px;
 }
 
@@ -87,7 +87,7 @@ body {
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 60px; /* 107.143% */
+  line-height: 1.07; /* 107.143% */
   letter-spacing: 1.12px;
   width: 496px;
 }
@@ -108,7 +108,7 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 1.50; /* 150% */
   letter-spacing: 0.64px;
 }
 
@@ -129,7 +129,7 @@ body {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 120% */
+  line-height: 1.20; /* 120% */
   letter-spacing: 0.4px;
   width: 264px;
 }
@@ -140,7 +140,7 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 1.50; /* 150% */
   letter-spacing: 0.32px;
   width: 264px;
 }
@@ -152,7 +152,7 @@ body {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 40px; /* 111.111% */
+  line-height: 1.11; /* 111.111% */
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -184,7 +184,7 @@ body {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 120% */
+  line-height: 1.20; /* 120% */
   letter-spacing: 0.4px;
 }
 
@@ -195,7 +195,7 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 1.50; /* 150% */
   letter-spacing: 0.32px;
 }
 
@@ -212,7 +212,7 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 1.50; /* 150% */
   letter-spacing: 0.32px;
   width: 264px;
 }
@@ -253,8 +253,8 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.5px; /* 150% */
-  letter-spacing: 0.64px;
+  line-height: 1.50; /* 150% */
+  letter-spacing: 0.04em;
 }
 
 .button_portfolio {
@@ -275,7 +275,7 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 1.50; /* 150% */
   letter-spacing: 0.64px;
 }
 
@@ -285,8 +285,8 @@ body {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 120% */
-  letter-spacing: 0.4px;
+  line-height: 1.20; /* 120% */
+  letter-spacing: 0.2em;
 }
 
 .portfolio_text {
@@ -295,6 +295,6 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 1.50; /* 150% */
   letter-spacing: 0.32px;
 }
