@@ -11,8 +11,13 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: var(--slate);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
   background-color: var(--ultrawhite);
+  color: #434455;
 }
 
 .web {
@@ -33,14 +38,15 @@ body {
 }
 
 .studio {
-  color: var(--navyblue);
-  font-family: 'Raleway';
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 1.17; /* 116.667% */
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
+    color: var(--navyblue, #2E2F42);
+    font-family: "Raleway";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.17; /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    width: 71px;
 }
 
 .address {
@@ -245,7 +251,7 @@ body {
   padding: 12px 24px;
   align-items: flex-start;
   border-radius: 4px;
-  background: var(--ocean);
+  background-color: var(--ocean);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08),
     0px 3px 1px 0px rgba(0, 0, 0, 0.1);
   cursor: pointer;
@@ -260,6 +266,11 @@ body {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.04em;
+}
+
+.btn_portfolio:hover,
+.btn_portfolio:focus {
+    color: var(--ultrawhite);
 }
 
 .button_portfolio {
