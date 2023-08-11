@@ -20,16 +20,16 @@ body {
   color: #434455;
 }
 
-.web {
-    color: var(--iris, #4D5AE5);
-    font-family: "Raleway";
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 1.17; /* 116.667% */
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-    width: 44px;
+.logo {
+  color: var(--iris, #4d5ae5);
+  font-family: 'Raleway';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  width: 44px;
 }
 
 .web :hover,
@@ -38,15 +38,15 @@ body {
 }
 
 .studio {
-    color: var(--navyblue, #2E2F42);
-    font-family: "Raleway";
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 1.17; /* 116.667% */
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-    width: 71px;
+  color: var(--navyblue, #2e2f42);
+  font-family: 'Raleway';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  width: 71px;
 }
 
 .address {
@@ -270,7 +270,7 @@ body {
 
 .btn_portfolio:hover,
 .btn_portfolio:focus {
-    color: var(--ultrawhite);
+  color: var(--ultrawhite);
 }
 
 .button_portfolio {
