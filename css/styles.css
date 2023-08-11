@@ -10,7 +10,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto';
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -22,7 +22,7 @@ body {
 
 .logo {
   color: var(--iris, #4d5ae5);
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -30,10 +30,11 @@ body {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   width: 44px;
+  text-decoration: none;
 }
 
-.web :hover,
-.web :focus {
+.logo :hover,
+.logo :focus {
   color: var(--ocean);
 }
 
@@ -57,6 +58,12 @@ body {
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.address:hover,
+.address:focus {
+  color: var(--ocean);
 }
 
 .link {
@@ -67,13 +74,18 @@ body {
   list-style: none;
 }
 .navigation {
-  color: var(--slate);
+  color: var(--navyblue);
   font-family: 'Roboto';
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
+}
+
+.navigation:hover,
+.navigation:focus {
+  color: var(--ocean);
 }
 
 .header {
@@ -109,18 +121,23 @@ body {
   align-items: flex-start;
   gap: 10px;
   border-radius: 4px;
-  background: var(--iris);
+  background-color: var(--iris);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .button_hero_text {
-  color: var(--white);
-  font-family: 'Roboto';
+  color: var(--ultrawhite);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5; /* 150% */
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.button_hero:hover,
+.button_hero:focus {
+  background-color: var(--ocean);
 }
 
 .section_two {
@@ -186,6 +203,10 @@ body {
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.72px;
   text-transform: capitalize;
+}
+
+.team_card_list_item {
+  background-color: var(--ultrawhite);
 }
 
 .team_name_card {
@@ -258,9 +279,8 @@ body {
 }
 
 .btn_portfolio_text {
-  color: var(--white);
+  color: var(--iris);
   text-align: center;
-  font-family: 'Roboto';
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -302,7 +322,7 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 1.2; /* 120% */
-  letter-spacing: 0.2em;
+  letter-spacing: 0.02em;
 }
 
 .portfolio_text {
