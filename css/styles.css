@@ -105,18 +105,18 @@ body {
 }
 
 .introduction_hero {
-  color: var(--white);
+  color: var(--ultrawhite);
   text-align: center;
   font-family: 'Roboto';
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
   line-height: 1.07; /* 107.143% */
-  letter-spacing: 1.12px;
+  letter-spacing: 0.02em;
   width: 496px;
 }
 
-.button_hero {
+.section_one_button {
   display: inline-flex;
   padding: 16px 32px;
   align-items: flex-start;
@@ -126,7 +126,7 @@ body {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
-.button_hero_text {
+.section_one_button_text {
   color: var(--ultrawhite);
   font-size: 16px;
   font-style: normal;
@@ -136,8 +136,8 @@ body {
   cursor: pointer;
 }
 
-.button_hero:hover,
-.button_hero:focus {
+.section_one_button:hover,
+.section_one_button:focus {
   background-color: var(--ocean);
 }
 
