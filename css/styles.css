@@ -82,6 +82,7 @@ body {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
+  text-decoration: none;
 }
 
 .navigation:hover,
@@ -266,6 +267,7 @@ body {
 }
 
 .btn_portfolio {
+  font-family: "Roboto", sans-serif;
   display: flex;
   padding: 12px 24px;
   align-items: flex-start;
