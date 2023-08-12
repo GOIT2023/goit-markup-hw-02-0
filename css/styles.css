@@ -21,16 +21,15 @@ body {
 }
 
 .logo {
-  color: var(--iris, #4d5ae5);
-  font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 1.17; /* 116.667% */
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-  width: 44px;
-  text-decoration: none;
+    color: var(--iris, #4d5ae5);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.17; /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    width: 44px;  
 }
 
 .logo :hover,
@@ -277,10 +276,7 @@ body {
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08),
     0px 3px 1px 0px rgba(0, 0, 0, 0.1);
   cursor: pointer;
-}
-
-.btn_portfolio_text {
-  color: var(--iris);
+  color: var(--white);
   text-align: center;
   font-size: 16px;
   font-style: normal;
@@ -289,8 +285,8 @@ body {
   letter-spacing: 0.04em;
 }
 
-.button_portfolio:hover,
-.button_portfolio:focus {
+.btn_portfolio:hover,
+.btn_portfolio:focus {
   color: var(--ultrawhite);
 }
 
@@ -303,9 +299,6 @@ body {
   border: 1px var(--cornflower);
   background: var(--cloud);
   cursor: pointer;
-}
-
-.button_portfolio_text {
   color: var(--iris);
   text-align: center;
   font-family: 'Roboto';
