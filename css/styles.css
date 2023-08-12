@@ -30,6 +30,7 @@ body {
     letter-spacing: 0.54px;
     text-transform: uppercase;
     width: 44px;  
+    text-decoration: none;
 }
 
 .logo :hover,
