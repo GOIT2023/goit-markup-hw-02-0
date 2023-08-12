@@ -10,7 +10,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+ font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -20,8 +20,21 @@ body {
   color: #434455;
 }
 
-.link:hover,
-.link :focus {
+.logo {
+    color: var(--iris, #4d5ae5);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.17; /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    width: 44px;  
+    text-decoration: none;
+}
+
+.logo :hover,
+.logo :focus {
   color: var(--ocean);
 }
 
@@ -56,16 +69,6 @@ body {
 
 .link {
   text-decoration: none;
-  color: var(--iris, #4d5ae5);
-  font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 1.17; /* 116.667% */
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-  width: 44px;
-  text-decoration: none;
 }
 
 .list {
@@ -84,10 +87,6 @@ body {
 .navigation:hover,
 .navigation:focus {
   color: var(--ocean);
-}
-
-.button_nav {
-  text-decoration: none;
 }
 
 .header {
@@ -306,10 +305,6 @@ body {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.64px;
-}
-
-.section_img {
-  text-decoration: none;
 }
 
 .portfolio_title {
