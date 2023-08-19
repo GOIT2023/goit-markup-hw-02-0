@@ -227,7 +227,6 @@ body {
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
-  width: 264px;
 }
 
 .studio_footer {
@@ -248,7 +247,6 @@ body {
 
 .btn_portfolio {
   font-family: 'Roboto', sans-serif;
-  border-radius: 4px;
   background-color: var(--cloud);
   cursor: pointer;
   color: var(--iris);
